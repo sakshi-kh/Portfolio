@@ -14,9 +14,10 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 30px 10%;
+  padding: 20px 10%;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 3rem;
   background-color: #adff2f;
   z-index: 1000;
@@ -25,6 +26,8 @@ nav ul {
   display: flex;
   justify-content: space-between;
   gap: 2rem;
+  top: -5px;
+  margin-left: 35%;
 }
 nav ul a {
   color: black;
@@ -35,10 +38,30 @@ nav ul a {
 }
 nav ul a:hover {
   opacity: 1;
+  font-size: large;
+  color: white;
+}
+.btn {
+  padding: 0.5em;
+  background-color: #adff2f;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.5em;
+  cursor: pointer;
+  border: 2px solid white;
+  transition: 0.3s ease-in-out;
+  margin-left: auto;
+}
+.btn:hover {
+  background-color: white;
+  color: #adff2f;
 }
 #menu {
   color: black;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.7rem;
+  margin-left: auto;
+  position: relative;
   display: none;
 }
