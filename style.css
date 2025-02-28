@@ -155,7 +155,7 @@ span {
   color: white;
   opacity: 0.8;
   font-size: 20px;
-  line-height: 1.6
+  line-height: 1.6;
 }
 .about-info {
   position: relative;
@@ -235,4 +235,23 @@ span {
 .box h1 {
   font-size: 20px;
   margin-bottom: 2rem;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: -10px;
+}
+
+.info-item a {
+  font-size: 2rem;
+  color: #adff2f;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.info-item a:hover {
+  transform: scale(1.2);
+  opacity: 0.5;
 }
