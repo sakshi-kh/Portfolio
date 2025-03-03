@@ -102,6 +102,7 @@ section {
 span {
   color: #adff2f;
 }
+  
 .home-info h1 {
   font-size: 6rem;
   font-weight: 700;
@@ -184,6 +185,22 @@ span {
   margin: 2rem 0 3rem;
   letter-spacing: 0.1rem;
 }
+.move-text {
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+  animation: moveText 2s ease-in-out infinite alternate;
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(30px); /* Adjust distance if needed */
+  }
+}
+
 
 /* Skills Section */
 .skills h2 {
@@ -333,7 +350,7 @@ span {
   box-shadow: 0 0 25px #adff2f;
 }
 .footer .copyright {
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
   font-size: 16px;
 }
