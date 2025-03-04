@@ -494,34 +494,3 @@ span {
 
 
 
-@media (max-width: 1024px) {
-  body {
-    font-size: 16px;
-  }
-  .container {
-    width: 90%;
-  }
-  .nav-links {
-    display: none; /* Hide nav links for mobile menu */
-  }
-  .menu-icon {
-    display: block; /* Show hamburger menu */
-  }
-}
-
-@media (max-width: 480px) {
-  body {
-    font-size: 12px;
-  }
-  h1 {
-    font-size: 1.8rem;
-  }
-  .button {
-    width: 100%;
-    padding: 10px;
-  }
-  .footer {
-    flex-direction: column;
-    text-align: center;
-  }
-}
