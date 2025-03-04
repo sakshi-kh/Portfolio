@@ -287,7 +287,7 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 9px;
   transition: 0.3s ease;
 }
 .project-items:hover {
