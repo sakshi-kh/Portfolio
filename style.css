@@ -442,6 +442,9 @@ span {
   .about {
     flex-direction: column-reverse;
   }
+  .about p{
+    font-size: 2.5rem;
+  }
   .about-img img {
     width: 55vw;
     margin-top: 4rem;
