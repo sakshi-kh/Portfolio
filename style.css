@@ -335,7 +335,9 @@ span {
 }
 .contact form .btn {
   margin-top: 1rem;
+  cursor: pointer;
 }
+
 /* Footer SEction */
 .footer {
   position: relative;
