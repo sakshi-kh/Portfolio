@@ -279,7 +279,7 @@ span {
 }
 .project-items {
   border-radius: 1rem;
-  border: 2px solid #ffff;
+  border: 2px solid #adff2f;
   margin: 0 2rem;
   padding: 20px 20px;
   cursor: pointer;
@@ -291,7 +291,7 @@ span {
   transition: 0.3s ease;
 }
 .project-items:hover {
-  border-color: #adff2f;
+  border-color: #ffff;
   transform: scale(1.02);
   background-color: black;
   
