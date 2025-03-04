@@ -190,6 +190,7 @@ span {
 .about-info p {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
+  font-weight: 500;
   letter-spacing: 0.1rem;
   color: #adff2f;
 }
