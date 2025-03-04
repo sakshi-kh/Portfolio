@@ -59,6 +59,8 @@ section {
 #menu {
   font-size: 3.6rem;
   color: #ffff;
+  cursor: pointer;
+  display: none;
 }
 
 /* home section */
@@ -102,7 +104,7 @@ section {
 span {
   color: #adff2f;
 }
-  
+
 .home-info h1 {
   font-size: 6rem;
   font-weight: 700;
@@ -197,10 +199,9 @@ span {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(30px); /* Adjust distance if needed */
+    transform: translateX(30px);
   }
 }
-
 
 /* Skills Section */
 .skills h2 {
@@ -210,7 +211,6 @@ span {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  flex-wrap: nowrap;
   gap: 3.5rem;
 }
 .skills-container .skills-box {
@@ -284,7 +284,7 @@ span {
   font-size: 1.5rem;
 }
 
-/* Conctact Section */
+/* Contact Section */
 .contact h2 {
   margin-bottom: 3rem;
 }
@@ -353,4 +353,110 @@ span {
   margin-top: 10px;
   text-align: center;
   font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 852px) {
+  .header {
+    padding: 2rem 3%;
+  }
+  .logo {
+    width: 6vw;
+  }
+  section {
+    padding: 10rem 3%;
+  }
+  .skills {
+    padding: 2rem;
+  }
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .skills-box li {
+    font-size: 2.5rem;
+  }
+  .projects .wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .contact form .input-box input {
+    width: 100%;
+  }
+  .footer {
+    padding: 2rem 3%;
+  }
+}
+@media (max-width: 852px) {
+  #menu {
+    display: block;
+  }
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    width: 255px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5s ease;
+    backdrop-filter: blur(10px);
+  }
+  .navbar a {
+    display: block;
+    padding: 17px;
+    font-size: 22px;
+  }
+  .navbar.active {
+    right: 0;
+    display: flex;
+    background: #adff2f;
+  }
+  .home {
+    flex-direction: column;
+  }
+  .home-info h3 {
+    font-size: 3rem;
+  }
+  .home-info h1 {
+    font-size: 5rem;
+  }
+  .home-info p {
+    font-size: 3rem;
+  }
+  .home-info {
+    order: 2;
+    margin-left: 1rem;
+  }
+  .sakshi-img img {
+    width: 55vw;
+    margin-top: 4rem;
+  }
+  .about {
+    flex-direction: column-reverse;
+  }
+  .about-img img {
+    width: 55vw;
+    margin-top: 4rem;
+  }
+  .skills h2 {
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+  .sakshi-img img {
+    width: 55vw;
+    margin-top: 8rem;
+  }
+  .about-img img {
+    width: 55vw;
+    margin-top: 4rem;
+  }
 }
