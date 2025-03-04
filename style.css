@@ -155,7 +155,7 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem; 
+  gap: 2rem;
   background-color: #ffff;
 }
 .about-img img {
@@ -176,7 +176,7 @@ span {
 .about-info {
   padding: 0 4rem;
 }
-.about-info h2{
+.about-info h2 {
   color: black;
 }
 .about-info h2 {
@@ -212,7 +212,7 @@ span {
 
 /* Skills Section */
 .skills h2 {
-  margin-top: 5rem;
+  margin-top: 4rem;
   margin-bottom: 5rem;
 }
 .skills-container {
@@ -252,7 +252,7 @@ span {
 }
 
 /* Project-Section */
-.projects{
+.projects {
   background-color: #ffff;
 }
 .project-box {
@@ -261,9 +261,8 @@ span {
   justify-content: center;
   align-items: center;
   flex-direction: column;
- 
 }
-.project-box h2{
+.project-box h2 {
   color: #adff2f;
 }
 .projects .heading {
@@ -295,9 +294,8 @@ span {
   border-color: #ffff;
   transform: scale(1.02);
   background-color: black;
-  
 }
-.project-items:hover h2{
+.project-items:hover h2 {
   color: #ffff;
 }
 .project-items h2 {
@@ -346,7 +344,6 @@ span {
   padding: 30px 0;
   text-align: center;
   background-color: #ffff;
-
 }
 .footer .social {
   text-align: center;
@@ -398,6 +395,9 @@ span {
   }
   .skills {
     padding: 2rem;
+  }
+  .skills h2 {
+    margin-top: 8rem;
   }
   .skills-container {
     flex-direction: column;
@@ -464,7 +464,7 @@ span {
   .about {
     flex-direction: column-reverse;
   }
-  .about p{
+  .about p {
     font-size: 2.5rem;
   }
   .about-img img {
