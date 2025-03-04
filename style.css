@@ -155,7 +155,8 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 2rem; 
+  background-color: #ffff;
 }
 .about-img img {
   width: 25vw;
@@ -175,17 +176,22 @@ span {
 .about-info {
   padding: 0 4rem;
 }
+.about-info h2{
+  color: black;
+}
 .about-info h2 {
   text-align: left;
   line-height: 1.2;
 }
 .about-info h3 {
   font-size: 3rem;
+  color: black;
 }
 .about-info p {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
   letter-spacing: 0.1rem;
+  color: #adff2f;
 }
 .move-text {
   display: inline-block;
@@ -244,12 +250,19 @@ span {
 }
 
 /* Project-Section */
+.projects{
+  background-color: #ffff;
+}
 .project-box {
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+ 
+}
+.project-box h2{
+  color: #adff2f;
 }
 .projects .heading {
   margin-bottom: 5rem;
@@ -265,7 +278,7 @@ span {
 }
 .project-items {
   border-radius: 1rem;
-  border: 2px solid #adff2f;
+  border: 2px solid #ffff;
   margin: 0 2rem;
   padding: 20px 20px;
   cursor: pointer;
@@ -277,8 +290,13 @@ span {
   transition: 0.3s ease;
 }
 .project-items:hover {
-  border-color: #ffff;
+  border-color: #adff2f;
   transform: scale(1.02);
+  background-color: black;
+  
+}
+.project-items:hover h2{
+  color: #ffff;
 }
 .project-items h2 {
   font-size: 1.5rem;
@@ -325,6 +343,7 @@ span {
   width: 100%;
   padding: 30px 0;
   text-align: center;
+  background-color: #ffff;
 
 }
 .footer .social {
@@ -356,6 +375,7 @@ span {
   margin-top: 10px;
   text-align: center;
   font-size: 16px;
+  color: #adff2f;
 }
 
 /* Responsive Design */
@@ -436,7 +456,7 @@ span {
     margin-left: 1rem;
   }
   .sakshi-img img {
-    width: 55vw;
+    width: 60vw;
     margin-top: 4rem;
   }
   .about {
@@ -446,7 +466,7 @@ span {
     font-size: 2.5rem;
   }
   .about-img img {
-    width: 55vw;
+    width: 60vw;
     margin-top: 4rem;
   }
   .skills h2 {
@@ -458,11 +478,11 @@ span {
     font-size: 50%;
   }
   .sakshi-img img {
-    width: 55vw;
+    width: 60vw;
     margin-top: 8rem;
   }
   .about-img img {
-    width: 55vw;
+    width: 60vw;
     margin-top: 4rem;
   }
 }
